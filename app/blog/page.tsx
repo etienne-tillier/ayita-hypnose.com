@@ -1,43 +1,59 @@
 import Link from "next/link";
 import { getPublishedBlogPosts } from "@/lib/blog";
+import BlogCard from "@/components/BlogCard";
+
+export const revalidate = 21600;
+
+export const metadata = {
+  title: "Blog - Articles sur l'hypnothérapie",
+  description:
+    "Découvrez nos articles sur l'hypnothérapie : techniques, bienfaits, conseils pour votre mieux-être. Informez-vous sur l'arrêt du tabac, la gestion du stress, la confiance en soi.",
+};
 
 export default async function BlogPage() {
   const posts = await getPublishedBlogPosts(24, 0);
 
   return (
-    <main className="mx-auto max-w-5xl px-6 py-12">
-      <header className="mb-8">
-        <p className="text-sm text-slate-500">Blog</p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight text-slate-900">
-          Tous les articles
-        </h1>
-      </header>
-
-      {posts.length === 0 ? (
-        <div className="rounded-lg border border-slate-200 bg-white p-6 text-slate-600">
-          Aucun article publié.
+    <div className="min-h-screen" style={{ background: '#f5f3ef' }}>
+      {/* Header Banner */}
+      <div className="py-16 px-6" style={{ background: 'linear-gradient(135deg, #0d1f3c, #1a3352)' }}>
+        <div className="max-w-5xl mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4" style={{ fontFamily: 'Source Serif 4, Georgia, serif' }}>
+            Blog
+          </h1>
+          <p className="text-lg opacity-80 max-w-2xl mx-auto" style={{ color: 'rgba(255,255,255,0.8)' }}>
+            Articles et ressources sur l&apos;hypnothérapie, les techniques de bien-être et les conseils pour améliorer votre quotidien. Une source d&apos;information fiable pour comprendre et pratiquer l&apos;hypnose thérapeutique.
+          </p>
         </div>
-      ) : (
-        <ul className="space-y-4">
-          {posts.map((post) => (
-            <li key={post.id} className="rounded-lg border border-slate-200 bg-white p-5">
-              <h2 className="text-lg font-semibold text-slate-900">
-                <Link href={`/blog/${post.slug}`} className="hover:underline">
-                  {post.h1 || post.seo_title || post.slug}
-                </Link>
-              </h2>
-              {post.meta_description ? (
-                <p className="mt-2 text-slate-600">{post.meta_description}</p>
-              ) : null}
-              <p className="mt-3 text-xs text-slate-500">
-                {post.published_at
-                  ? new Date(post.published_at).toLocaleDateString("fr-FR")
-                  : "Date inconnue"}
-              </p>
-            </li>
-          ))}
-        </ul>
-      )}
-    </main>
+      </div>
+
+      {/* Content */}
+      <div className="max-w-5xl mx-auto px-6 py-12">
+        {posts.length === 0 ? (
+          <div className="rounded-xl p-12 text-center" style={{ background: 'white', boxShadow: '0 4px 24px rgba(13,31,60,0.08)' }}>
+            <div className="text-5xl mb-4">📝</div>
+            <h2 className="text-2xl font-semibold mb-3" style={{ color: '#0d1f3c', fontFamily: 'Source Serif 4, Georgia, serif' }}>
+              Aucun article publié pour le moment.
+            </h2>
+            <p className="opacity-70 max-w-md mx-auto">
+              Nos articles sur l&apos;hypnothérapie et le bien-être seront bientôt disponibles. N&apos;hésite pas à revenir nous voir ou à nous contacter directement pour toute question.
+            </p>
+            <div className="mt-6">
+              <Link href="/contact" className="btn-primary inline-flex">
+                Nous contacter
+              </Link>
+            </div>
+          </div>
+        ) : (
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {posts.map((post) => (
+                <BlogCard key={post.id} post={post} />
+              ))}
+            </div>
+          </>
+        )}
+      </div>
+    </div>
   );
 }

@@ -4,7 +4,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
 
 export async function generateSitemapXml(
     lang: string,
-    staticPages: string[] = ["", "/blog", "/contact", "/a-propos", "/mentions-legales", "/politique-confidentialite"]
+    staticPages: string[] = ["", "/blog", "/contact", "/a-propos", "/guide-hypnotherapie", "/temoignages", "/applications", "/mentions-legales", "/politique-confidentialite"]
 ) {
     const posts = await getBlogPostsForSitemap(lang);
     let urls: { loc: string; lastmod: string }[] = [];
