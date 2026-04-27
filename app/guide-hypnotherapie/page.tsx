@@ -44,7 +44,7 @@ export default function GuidePage() {
             Une séance type d&apos;hypnothérapie dure généralement entre 45 minutes et 1h30. Elle se déroule en plusieurs phases distinctes qui permettent au patient d&apos;atteindre un état de conscience modifié en toute sécurité et confort.
           </p>
           <p>
-            <strong>Phase 1 - L&apos;entretien préliminaire :</strong> Lors de la première séance, le thérapeuthe commence par un long entretien pour comprendre votre problématique, vos objectifs et votre historique. Cette étape est essentielle pour établir la relation de confiance et adapter la technique à vos besoins spécifiques. C&apos;est aussi le moment de répondre à vos questions et de dissiper les myths ou fears liées à l&apos;hypnose.
+            <strong>Phase 1 - L&apos;entretien préliminaire :</strong> Lors de la première séance, le thérapeuthe commence par un long entretien pour comprendre votre problématique, vos objectifs et votre historique. Cette étape est essentielle pour établir la relation de confiance et adapter la technique à vos besoins spécifiques. C&apos;est aussi le moment de répondre à vos questions et de dissiper les mythes et les craintes liées à l&apos;hypnose.
           </p>
           <p>
             <strong>Phase 2 - L&apos;induction :</strong> Le thérapeuthe vous guide ensuite vers un état de relaxation profonde par des techniques de respiration, de visualisation et de suggestions verbales. Vous restez pleinement conscient et maître de vous-même. Certaines personnes décrivent cet état comme une sensation de flottement, de détente profonde ou de connection renforcée avec elles-mêmes.
@@ -61,7 +61,7 @@ export default function GuidePage() {
             Il existe de nombreuses approches et techniques au sein de l&apos;hypnothérapie. Parmi les plus courantes, on retrouve l&apos;hypnose ericksonienne, nommée d&apos;après Milton Erickson, qui utilise des métaphores et des suggestions indirectes pour contourner les résistances du patient. L&apos;hypnose classique, plus directive, fait usage de suggestions directes pour obtenir des changements précis. D&apos;autres approches incluent la Programmation Neuro-Linguistique (PNL), l&apos;EMDR (mouvement des yeux), ou encore l&apos;hypnose analytique qui vise à explorer les causes profondes des comportements.
           </p>
           <p>
-            L&apos;hypnothérapie moderne adopte souvent une approche intégrative, combinant les meilleures techniques selon les besoins du patient. Le prakticien qualifié évalue chaque situation et adapte son accompagnement en conséquence.
+            L&apos;hypnothérapie moderne adopte souvent une approche intégrative, combinant les meilleures techniques selon les besoins du patient. Le praticien qualifié évalue chaque situation et adapte son accompagnement en conséquence.
           </p>
 
           <h2>Les applications de l&apos;hypnothérapie</h2>
@@ -79,9 +79,9 @@ export default function GuidePage() {
             Le stress chronique et l&apos;anxiété generalized peuvent avoir des conséquences graves sur la santé physique et mentale. L&apos;hypnothérapie offre des outils concrets pour retrouver un état de calme durable. Les techniques de relaxation profonde et de visualisation permettent au patient de développer des ressources internes de sérénité qu&apos;il peut utiliser au quotidien. De nombreuses personnes rapportent une réduction significative de leurs symptômes après quelques séances seulement.
           </p>
 
-          <h3>Confiance en soi et esteem de soi</h3>
+          <h3>Confiance en soi et estime de soi</h3>
           <p>
-            Le manque de confiance en soi peut constituer un frein majeur dans la vie personnelle et professionnelle. L&apos;hypnothérapie permet de reprogrammer les schémas de pensée négatifs qui minent l&apos;esteem de soi. En accedant aux souvenirs et aux expériences qui ont forgé ces croyances limitantes, le praticien peut aider le patient à construire une image de lui-même plus positive et plus fidèle à ses capacités réelles.
+            Le manque de confiance en soi peut constituer un frein majeur dans la vie personnelle et professionnelle. L&apos;hypnothérapie permet de reprogrammer les schémas de pensée négatifs qui minent l&apos;estime de soi. En accedant aux souvenirs et aux expériences qui ont forgé ces croyances limitantes, le praticien peut aider le patient à construire une image de lui-même plus positive et plus fidèle à ses capacités réelles.
           </p>
 
           <h3>Phobies et traumatismes</h3>
@@ -106,12 +106,12 @@ export default function GuidePage() {
 
           <h2>Combien de séances sont nécessaires ?</h2>
           <p>
-            Le nombre de séances varie selon la nature et l&apos;ancienneté de la problématique. Pour des demandes précises et récentes comme l&apos;arrêt du tabac, 2 à 4 séances suffisent généralement. Pour des problématiques plus profondes comme les traumatismes ou les troubles de l&apos;esteem de soi, un accompagnement de 5 à 12 séances peut être nécessaire. Votre praticien établira un plan personnalisé lors du premier rendez-vous. L&apos;important est de noter que l&apos;hypnothérapie vise à produire des changements durables, pas juste un soulagement temporaire.
+            Le nombre de séances varie selon la nature et l&apos;ancienneté de la problématique. Pour des demandes précises et récentes comme l&apos;arrêt du tabac, 2 à 4 séances suffisent généralement. Pour des problématiques plus profondes comme les traumatismes ou les troubles de l&apos;estime de soi, un accompagnement de 5 à 12 séances peut être nécessaire. Votre praticien établira un plan personnalisé lors du premier rendez-vous. L&apos;important est de noter que l&apos;hypnothérapie vise à produire des changements durables, pas juste un soulagement temporaire.
           </p>
 
           <h2>L&apos;hypnothérapie est-elle dangereuse ?</h2>
           <p>
-            L&apos;hypnothérapie pratiquée par un professionnel qualifié est une méthode sûre et non invasive. Contrairement aux myths popularisés par le cinéma, vous ne pouvez pas rester &quot;bloqué&quot; en hypnose, perdre la mémoire, ou être forcé de faire quelque chose contre votre volonté. Vous restez pleinement conscient et maître de vous-même tout au long de la séance. La seule condition requise est d&apos;être capable de se concentrer et de consentir à l&apos;expérience.
+            L&apos;hypnothérapie pratiquée par un professionnel qualifié est une méthode sûre et non invasive. Contrairement aux mythes popularisés par le cinéma, vous ne pouvez pas rester &quot;bloqué&quot; en hypnose, perdre la mémoire, ou être forcé de faire quelque chose contre votre volonté. Vous restez pleinement conscient et maître de vous-même tout au long de la séance. La seule condition requise est d&apos;être capable de se concentrer et de consentir à l&apos;expérience.
           </p>
           <p>
             Cependant, il est important de consulter un praticien certifié et de l&apos;informer de tout antécédent médical ou psychologique. L&apos;hypnothérapie ne remplace pas un traitement médical ou psychiatrique lorsqu&apos;il est indicated, mais peut parfaitement s&apos;y intégrer de manière complémentaire.

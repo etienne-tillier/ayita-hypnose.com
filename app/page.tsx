@@ -15,7 +15,7 @@ const benefits = [
   },
   {
     icon: "✨",
-    title: "Résultats durables et快速",
+    title: "Résultats durables et rapides",
     description:
       "En quelques séances seulement, de nombreux patients constate des changements significatifs. L'hypnose thérapeutique s'attaque aux causes profondes des comportements pour des résultats qui durent.",
     color: "#6b5b95",
@@ -85,7 +85,7 @@ const testimonials = [
   },
   {
     name: "Thomas R.",
-    text: "Je souffrais de crises d'anxiété invalidantes au quotidien. Gracias à mon hypnothérapeute, j'ai retrouvé un calme que je n'avais plus ressenti depuis des années. Un accompagnement bienveillance et des résultats concrets.",
+    text: "Je souffrais de crises d'anxiété invalidantes au quotidien. Grâce à mon hypnothérapeute, j'ai retrouvé un calme que je n'avais plus ressenti depuis des années. Un accompagnement bienveillance et des résultats concrets.",
     location: "Paris",
   },
   {

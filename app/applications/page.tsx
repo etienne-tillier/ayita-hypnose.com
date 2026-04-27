@@ -15,7 +15,7 @@ const applications = [
       "L'hypnothérapie pour l'arrêt du tabac est l'une des applications les plus recherchées et les plus efficaces. Elle s'attaque simultanément aux dimensions physique et psychologique de l'addiction à la nicotine.",
     fullText:
       "L'arrêt du tabac par l'hypnothérapie offre des résultats remarquables comparés aux méthodes classiques. Alors que les patches et gommes nicotiniques ne traitent que la dépendance physique, l'hypnose permet de reprogrammer les réflexes conditionnels (pause café, moment de stress) et de modifier la perception de la cigarette. En quelques séances, le fumeur retrouve une relation saine avec son corps et son souffle. Les études montrent un taux de réussite de 60 à 80% après 2 à 3 séances pour les personnes véritablement motivées. Les bénéfices sont immédiats : respiration facilitée, goût et odorat renforcés, peau plus éclatante, et surtout une liberté retrouvée.",
-    benefits: ["Suppression de l'envie de nicotine", "Elimination des réflexes conditionnels", "Pas de prise de poids", "Résultats durables快速", "Sans effets secondaires"],
+    benefits: ["Suppression de l'envie de nicotine", "Elimination des réflexes conditionnels", "Pas de prise de poids", "Résultats durables", "Sans effets secondaires"],
     color: "#5b8a72",
     bg: "#e8f0ec",
   },
